@@ -1,7 +1,7 @@
 import Button from "./Button";
 import Dice from "../game_features/Dice";
 
-function GameControls() {
+function GameControlsContainer() {
   return (
     <div className="flex flex-col items-center justify-around space-y-4">
       <Button>
@@ -20,4 +20,4 @@ function GameControls() {
   );
 }
 
-export default GameControls;
+export default GameControlsContainer;

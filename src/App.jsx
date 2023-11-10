@@ -1,12 +1,12 @@
 import Player from "./game_features/Player";
-import GameControls from "./ui/GameControls";
+import GameControlsContainer from "./ui/GameControlsContainer";
 
 function App() {
   return (
     <div className="mt-14 flex">
-      <Player />
-      <GameControls />
-      <Player />
+      <Player num={1} />
+      <GameControlsContainer />
+      <Player num={2} />
     </div>
   );
 }
