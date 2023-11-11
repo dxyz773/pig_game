@@ -7,7 +7,7 @@ function Player({ num }) {
   const active = activePlayer === num;
 
   return (
-    <div className={`mockup-phone ${active ? "border-accent" : ""} `}>
+    <div className={`mockup-phone ${active ? "border-secondary" : ""} `}>
       <div className="camera"></div>
       <div className="display">
         <div className="artboard artboard-demo phone-1">

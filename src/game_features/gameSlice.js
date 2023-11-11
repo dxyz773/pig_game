@@ -36,8 +36,12 @@ const gameSlice = createSlice({
     },
     addCurrentScoreToTotalScore(state) {
       state[`player${state.activePlayer}TotalScore`] += state.activeScore;
-      state.activeScore = 0;
-      state.activePlayer = state.activePlayer === 1 ? 2 : 1;
+      if (state[`player${state.activePlayer}TotalScore`] < 100) {
+        state.activeScore = 0;
+        state.activePlayer = state.activePlayer === 1 ? 2 : 1;
+      } else if (state[`player${state.activePlayer}TotalScore`] >= 100) {
+        state.gameStatus = "complete";
+      }
     },
   },
 });
