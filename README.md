@@ -1,10 +1,19 @@
 # Pig Game
 
-### Work in progress...👩🏾‍💻
+## Table of Contents
 
-#### Inspired by Jonas Schmedtmann's vanilla JavaScript <a href="https://pig-game-v2.netlify.app/">Pig Game</a>
+- [Overview](#overview)
+- [Preview Image](#preview-image)
+- [Topics of Exploration](#topics-of-exploration)
+- [Instructions To Start App Locally](#instructions-to-start-app-locally)
 
-<img src="public/winnerPagePigGame.png" width="700">
+## Overview
+
+Two player interactive Pig Game. Inspired by Jonas Schmedtmann's vanilla JavaScript <a href="https://pig-game-v2.netlify.app/">Pig Game</a>
+
+## Preview Image
+
+<img src="public/winnerPagePigGame.png" width="400">
 
 ## Topics of Exploration:
 
@@ -12,7 +21,7 @@
 2. Redux Toolkit
 3. daisyUI
 
-## Instructions To Start App:
+## Instructions To Start App Locally:
 
 1. Fork Pig Game repo
 2. Git clone forked copy to local environment and open in IDE/code editor
